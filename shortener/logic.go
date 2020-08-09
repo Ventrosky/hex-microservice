@@ -15,10 +15,10 @@ var (
 )
 
 type redirectService struct {
-	redirectRepo RedirecRepository
+	redirectRepo RedirectRepository
 }
 
-func NewRedirectService(redirectRepo RedirecRepository) RedirectService {
+func NewRedirectService(redirectRepo RedirectRepository) RedirectService {
 	return &redirectService{
 		redirectRepo,
 	}
